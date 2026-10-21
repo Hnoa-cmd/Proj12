@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proj12.MainPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Home"
+                FontSize="22"
+                TextColor="Black"
+                FontAttributes="Bold"
+                Margin="0,20,0,0" />
+
+            <Label
+                Text="THIS IS YOUR FONT AND ICON &#x0a;OUT"
+                FontFamily="MaterialSymbols"
+                FontSize="24"
+                TextColor="Black"/>
+
+            <Button
+                x:Name="CounterBtn"
+                Margin="5,10,0,0"
+                FontFamily="MaterialSymbols"
+                BackgroundColor="#512BD4"
+                TextColor="White"
+                FontSize="24"
+                CornerRadius="8"
+                Text="&#xe8f5;"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
